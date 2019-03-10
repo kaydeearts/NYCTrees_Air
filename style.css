@@ -1,0 +1,122 @@
+body {
+    background-color: #C70039;
+}
+
+#TITLE{
+     font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+
+#SUBTITLE{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+
+#textTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+}
+
+svg rect {
+    fill: #267257;
+}
+
+
+
+#noFillRect {
+    fill: bisque;
+    stroke: .5rem;
+
+}
+
+svg text {
+    fill: white;
+    font: 12px sans-serif;
+    text-anchor: end;
+}
+
+
+.labelsBar line {
+    stroke: red;
+}
+
+.labelsBar path {
+    stroke: red;
+}
+
+.labelsBar text {
+    fill: red;
+}
+
+#lab2 {
+    margin-left: 3%;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+
+#scatterplot {
+    margin-left: 20%;
+    margin-top: 7%;
+}
+
+.background path {
+    fill: none;
+}
+
+.foreground path {
+    fill: none;
+    stroke: turquoise;
+}
+
+.btn-group{
+     margin-left: 30%;
+    padding-bottom: 5%;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    position: absolute;
+    font-size: 1.3rem;
+    font-family: 'Acme', sans-serif;
+}
+
+.Choice{
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-left: 0%;
+    text-align: center;
+    position: absolute;
+    font-size: .8rem;
+    font-family: 'Acme', sans-serif;
+}
+
+
+#Nitrogen{
+    margin-top:35%;
+}
+#FPM{
+    margin-top:37%;
+}
+#NitricOxide{
+    margin-top:45%;
+}
+#Ozone{
+    margin-top:50%;
+}
+#sukfureDioxide{
+    margin-top:55%;
+}
+#Carbon{
+    margin-top:60%;
+}

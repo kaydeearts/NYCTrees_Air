@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+
+</head>
+
+
+<body>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+    <!--
+    <a> <input type="button"  id="showAllButton" class="showAllButton" value="Show All" /> </a>
+     <a> <input type="button"  id="showAllButton" class="showAllButton" value="Hide All" /> </a>
+     <a> <input type="button"  id="Nitrogen" class="choice" value="Nitrogen" /> </a>
+     <a> <input type="button"  id="FPM" class="choice" value="FPM" /> </a>
+     <a> <input type="button"  id="NitricOxide" class="Choice" value="Nitric Oxide" /> </a>
+     <a> <input type="button"  id="Ozone" class="Choice" value="Ozone" /> </a>
+     <a> <input type="button"  id="sulfureDioxide" class="Choice" value="sulfurDioxide" /> </a>
+    <a> <input type="button"  id="Carbon" class="Choice" value="Carbon" /> </a>
+-->
+
+
+<h2 id="TITLE"> Number of Trees and Air Quality of NYC</h2>
+    <h2 id="SUBTITLE"> Kamile Demir</h2>
+
+
+    <div id="lab2"></div>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn" id="showAll">Show All</button>
+        <button type="button" class="btn" id="hideAll">Hide All</button>
+        <button type="button" class="btn" id="nitrogen">Nitrogen</button>
+        <button type="button" class="btn" id="fpm">FPM</button>
+        <button type="button" class="btn" id="nitricOxide">Nitric Oxide</button>
+        <button type="button" class="btn" id="ozone">Ozone</button>
+        <button type="button" class="btn" id="sulfureDioxide">Sulfure Dioxide</button>
+        <button type="button" class="btn" id="carbonDioxide">Carbon</button>
+    </div>
+        
+    <script src="dataCompiler.js"></script>
+    <script src="advancedDisplays.js"></script>
+
+    <!--
+    <script>
+        var airQualityArray = [];
+
+        nitrogenDioxide(3);
+        FPM(3);
+        nitricOxide(3);
+        ozone(3);
+        sulfureDioxide(3);
+        carbon(3);
+
+        var names = ["Queens", "Manhattan", "Brooklyn", "Staten Island", "Bronx"];
+
+        makeGraph(airQualityArray, names, "Air Quality NYC", 2);
+    </script>
+-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</body>
+
+</html>
